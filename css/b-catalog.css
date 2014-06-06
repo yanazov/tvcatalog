@@ -1,0 +1,132 @@
+.catalog-container{
+	width: 90%;
+	height: 500px;
+	padding: 0px;
+	background-color: #eaeaea;
+	font-family: Arial;
+}
+.catalog-item{
+	display: block;
+	float: left;
+	width: 20%;
+	border: 5px solid #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-color:transparent;
+}
+.catalog-item-a{
+	position: relative;
+	display: block;	
+	min-height: 220px;
+	width: 100%;
+	text-decoration: none;
+}
+.bg-brilliant-red{
+	background-color: #cf5050;
+}
+.bg-brilliant-red:hover .catalog-item-bottom{
+	background-color: #cf5050;
+}
+.bg-light-orang{
+	background-color: #ebaf69;
+}
+.bg-light-orang:hover .catalog-item-bottom{
+	background-color: #ebaf69;
+}
+.bg-magenta{
+	background-color: #ba77ba;
+}
+.bg-magenta:hover .catalog-item-bottom{
+	background-color: #ba77ba;
+}
+.bg-pale{
+	background-color: #8a9bcc;
+}
+.bg-pale:hover .catalog-item-bottom{
+	background-color: #8a9bcc;
+}
+.bg-blue-magenta{
+	background-color: #807191;
+}
+.bg-blue-magenta:hover .catalog-item-bottom{
+	background-color: #807191;
+}
+
+.catalog-item img{
+	width: 100%;
+}
+.catalog-item-ttl{
+	position: relative;
+	opacity: 0;
+}
+.catalog-item-type{
+	display: block;
+	padding: 15px 5px 5px 5px;
+	
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+}
+.catalog-item-name{
+	display: block;
+	padding: 10px 15px 15px 15px;
+	color: #170a25;
+	font-size: 16px;
+	font-weight: bold;
+}
+.catalog-item-bottom{
+	position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	padding: 0;
+	color: #170a25;
+	font-size: 16px;
+	font-weight: bold;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.catalog-item-description{
+	display: block;
+	position: relative;
+	height: 0px;
+	padding: 0 15px 0 15px;
+	color: #fff;
+	font-size: 11px;
+	line-height: 12px;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	font-weight: 400;
+
+}
+.catalog-item-a:hover .catalog-item-description{
+	height: 140px;
+}
+.catalog-item-detail{
+	display: block;
+	position: relative;
+	color: #fff;
+}
+.catalog-item-detail span{
+	font-weight: bold;
+	font-size: 12px;
+}
+.m10t{
+	margin-top: 10px;
+}
+.catalog-item-description-bot{
+	position: absolute;
+	top: 80px;
+}
+
+
+
