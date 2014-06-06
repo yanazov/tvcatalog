@@ -25,31 +25,31 @@
 .bg-brilliant-red{
 	background-color: #cf5050;
 }
-.bg-brilliant-red:hover .catalog-item-bottom{
+.bg-brilliant-red .catalog-item-bottom{
 	background-color: #cf5050;
 }
 .bg-light-orang{
 	background-color: #ebaf69;
 }
-.bg-light-orang:hover .catalog-item-bottom{
+.bg-light-orang .catalog-item-bottom{
 	background-color: #ebaf69;
 }
 .bg-magenta{
 	background-color: #ba77ba;
 }
-.bg-magenta:hover .catalog-item-bottom{
+.bg-magenta .catalog-item-bottom{
 	background-color: #ba77ba;
 }
 .bg-pale{
 	background-color: #8a9bcc;
 }
-.bg-pale:hover .catalog-item-bottom{
+.bg-pale .catalog-item-bottom{
 	background-color: #8a9bcc;
 }
 .bg-blue-magenta{
 	background-color: #807191;
 }
-.bg-blue-magenta:hover .catalog-item-bottom{
+.bg-blue-magenta .catalog-item-bottom{
 	background-color: #807191;
 }
 
@@ -85,11 +85,6 @@
 	color: #170a25;
 	font-size: 16px;
 	font-weight: bold;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
 }
 .catalog-item-description{
 	display: block;
@@ -100,11 +95,11 @@
 	font-size: 11px;
 	line-height: 12px;
 	overflow: hidden;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 	font-weight: 400;
 
 }
